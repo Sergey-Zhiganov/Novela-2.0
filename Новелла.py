@@ -403,6 +403,7 @@ def Chapter43():
     global g_data
     c_text = ['Обходя дракона, ты находишь тайный вход в гору.',['Войти внутрь','Продолжить свой путь']]
     g_data = None
+    number = Chapters(c_text)
     if number == 1:
         Chapter49()
     else:
